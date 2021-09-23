@@ -1,0 +1,1337 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/*--------------------
+01.top
+02.
+03.
+04.
+--------------------*/
+
+@media only screen and (max-width:1024px) {
+  /*----------
+01.top
+----------*/
+  #top .company_container {
+    padding-left: 75px;
+  }
+  #top .manage_plan_main_image {
+    padding-right: 15px;
+  }
+  #top .products_slider_box {
+    padding-left: 15px;
+  }
+  #top .manage_plan_box {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    width: calc(100% - 75px);
+    height: auto;
+    margin-left: auto;
+    margin-top: -100px;
+    padding: 60px 60px;
+  }
+  #top .csr_initiation_main_image {
+    padding-left: 0;
+  }
+  #top .csr_initiation_box {
+    position: relative;
+    top: auto;
+    left: auto;
+    bottom: auto;
+    margin-top: -100px;
+    max-width: 100%;
+  }
+  #top .csr_initiation_body {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    padding: 60px 60px 95px;
+  }
+  #top .oat_group_box {
+    position: relative;
+    bottom: unset;
+    right: unset;
+    bottom: unset;
+    max-width: 100%;
+    top: unset;
+    margin-top: -100px;
+  }
+  #top .oat_group_body {
+    max-width: 100%;
+    width: 100%;
+    padding: 60px;
+  }
+  #top .three_philosophy_wrap {
+    grid-template-columns: calc(60% - 40px) auto;
+  }
+  #top .realization_philosophy_box {
+    padding: 60px 75px 40px;
+  }
+  #top .oat_group_sdgs_main_image {
+    padding-left: 0;
+  }
+  #top .oat_group_sdgs_box {
+    position: relative;
+    bottom: unset;
+    right: unset;
+    top: unset;
+  }
+  #top .oat_group_sdgs_wrap {
+    transform: translate(-50%, -50%);
+    padding: 30px;
+  }
+  #products .product_category_body {
+    padding: 15px 0;
+  }
+}
+
+@media only screen and (max-width:750px) {
+  /*----------
+01.top
+----------*/
+  #top #intro h2 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  #top #intro p {
+    font-size: 14px;
+  }
+  .gallery_top .slick-dots {
+    display: none !important;
+  }
+  #top .slide_container .slide_item {
+    height: calc(var(--vh, 1vh) * 80.96);
+    min-height: 545px;
+  }
+  #top #intro .intro_container {
+    height: 65%;
+  }
+  #top .news_wrap {
+    grid-template-columns: auto;
+  }
+  #top .news_section {
+    padding: 25px 0 50px;
+  }
+  #top .section_title h3 {
+    font-size: 26px;
+    text-align: center;
+  }
+  #top .news_item {
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 20px;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+  }
+  #top .section_title {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  #top .news_list {
+    margin-bottom: 56px;
+  }
+  #top .products_wrap {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  #top .products_container {
+    width: 100%;
+    padding-left: 45px;
+    order: 1;
+  }
+  #top .products_header_container {
+    order: 2;
+  }
+  #top .product_slide_inner .product_name {
+    margin-bottom: 0;
+  }
+  #top .product_slide_image {
+    margin-bottom: 15px;
+  }
+  #top .products_header_container {
+    padding-left: 25px;
+  }
+  #top .products_list_slider {
+    margin-bottom: 20px;
+  }
+  #top .products_header_container .section_title {
+    margin-bottom: 9px;
+  }
+  #top .products_header_container .section_title h3 {
+    text-align: left;
+  }
+  #top .products_list_slider .slick-list {
+    margin-left: -18px;
+    margin-right: -18px;
+  }
+  #top .product_slide_item {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+  #top .products_slider_box {
+    margin-bottom: 40px;
+  }
+  #top .products_wrap {
+    padding-bottom: 40px;
+  }
+  #top .products_wrap::before {
+    content: "";
+    position: absolute;
+    top: 73px;
+    left: 0;
+  }
+  #top .products_section {
+    padding: 50px 0 60px;
+  }
+  #top .company_container {
+    padding-left: 40px;
+  }
+  #top .company_title h3 {
+    font-size: 26px;
+  }
+  #top .company_title p {
+    font-size: 13px;
+  }
+  #top .company_intro_text h2 {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  #top .company_title {
+    position: relative;
+    margin-bottom: 16px;
+  }
+  #top .top_company_section .company_image {
+    margin-bottom: 18px;
+  }
+  #top .top_company_section {
+    padding-bottom: 18px;
+  }
+  #top .common_header h2 {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  #top .common_header h3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  #top .product_description .sm_text {
+    font-size: 12px;
+  }
+  #top .three_philosophy_wrap {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  #top .technology_box {
+    margin-bottom: 54px;
+  }
+  #top .three_philosophy_image {
+    margin-bottom: 38px;
+  }
+  #top .philosophy_item h3 {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  #top .top_philosophy_section {
+    padding: 65px 0 80px;
+  }
+  #top .philosophy_list {
+    padding: 0 38px;
+  }
+  #top .manage_plan_box {
+    right: unset;
+    bottom: unset;
+    width: calc(100% - 53px);
+    margin-top: -60px;
+    padding: 15px 24px;
+  }
+  #top .philosophy_title h3 {
+    margin-bottom: 10px;
+  }
+  #top .manage_plan_graph {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: calc(-24px - 38px);
+    margin-right: -9px;
+  }
+  #top .manager_plan_title {
+    margin-bottom: 23px;
+  }
+  .top_three_principles_section {
+    padding: 74px 0 0 0;
+  }
+  #top .three_principles_main_image .image_wrap img {
+    width: 117%;
+  }
+  #top .three_principles_wrap {
+    margin-top: -50px;
+    margin-bottom: 30px;
+  }
+  #top .three_principles_wrap .s_row {
+    margin-left: -2.4px;
+    margin-right: -2.4px;
+  }
+  #top .three_principles_wrap .s_row>[class*="col_"] {
+    padding-right: 2.4px;
+    padding-left: 2.4px;
+  }
+  #top .three_principles_wrap .priciple_image {
+    padding: 10px 0 0;
+  }
+  #top .three_principles_wrap .priciple_image::before {
+    font-size: 12px;
+    line-height: 1.5;
+    top: 5px;
+  }
+  #top .three_principles_box .link_btn_sm {
+    justify-content: flex-start;
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+    text-align: left;
+    padding: 6px 10px;
+    margin-bottom: 3px;
+  }
+  #top .three_principles_box .link_btn_sm::after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    top: 48%;
+    right: 14px;
+  }
+  #top .principle_main_text {
+    font-size: 14px;
+  }
+  #top .principle_main_text span {
+    font-size: 18px;
+  }
+  #top .three_principles_main_text_wrap {
+    padding: calc(7.4vw + 24px) 15px 20px;
+  }
+  #top .realization_philosophy_box {
+    padding: 15px 15px 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -68px;
+  }
+  #top .realization_philosophy_info .box_title h3 {
+    margin-bottom: 6px;
+  }
+  #top .realization_philosophy_box .box_title h2 {
+    font-size: 20px;
+  }
+  #top .realization_philosophy_body {
+    grid-template-columns: 100%;
+    grid-row-gap: 28px;
+  }
+  #top .realization_philosophy_info .box_title {
+    margin-bottom: 16px;
+  }
+  #top .realization_philosophy_info .box_title p {
+    margin-top: 15px;
+  }
+  #top .realization_philosophy_image_list {
+    margin-left: -15px;
+    margin-right: -15px;
+    grid-column-gap: 7.4px;
+    grid-row-gap: 7.4px;
+  }
+  #top .argrio_aim_main_text {
+    width: 293px;
+    height: 87px;
+    padding: 15px;
+  }
+  #top .argrio_aim_main_text h3 {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  #top .three_principles_title h3 {
+    font-size: 16px;
+  }
+  #top .three_principles_title {
+    padding-bottom: 15px;
+  }
+  #top .three_principles_title::before {
+    height: 10px;
+  }
+  #top .three_principles_box::before {
+    height: 10px;
+  }
+  #top .realization_philosophy_section {
+    padding-bottom: 65px;
+  }
+  #top .agrio_aim_title h3 {
+    font-size: 16px
+  }
+  #top .agrio_aim_title {
+    padding-bottom: 15px;
+  }
+  #top .agrio_aim_title::before {
+    height: 10px;
+  }
+  #top .new_manage_plan_text h3 {
+    font-size: 22px;
+  }
+  #top .new_manage_plan_text h3 .term_date {
+    font-size: 12px;
+  }
+  #top .new_manage_plan_text {
+    margin-bottom: 15px;
+  }
+  #top .new_manage_plan_section {
+    max-height: 365px;
+    height: 97.4vw;
+  }
+  #top .six_advantages_section .company_image {
+    margin-bottom: 20px;
+  }
+  #top .six_advantages_section {
+    padding-bottom: 20px;
+  }
+  #top .csr_initiation_title h3 {
+    font-size: 22px;
+    padding-left: 25px;
+  }
+  #top .csr_initiation_title h3::before {
+    font-size: 26px;
+  }
+  #top .csr_initiation_body {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    padding: 15px 20px 75px;
+  }
+  #top .csr_initiation_title {
+    margin-bottom: 5px;
+  }
+  #top .csr_initiation_item_inner {
+    margin-bottom: 45px;
+  }
+  #top .oat_group_title h3 {
+    font-size: 14px;
+  }
+  #top .oat_group_body {
+    padding: 26px 28px 45px;
+  }
+  #top .oat_group_title {
+    margin-bottom: 20px;
+  }
+  #top .group_company_item .image_wrap img {
+    height: auto;
+  }
+  #top .group_company_item {
+    margin-bottom: 20px;
+  }
+  #top .group_company_list .l_row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  #top .group_company_list .col_auto {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #top .group_company_list .col_auto:nth-child(1) .group_company_item img {
+    width: 135px;
+    flex: 0 0 135px;
+    height: auto;
+  }
+  #top .group_company_list .col_auto:nth-child(2) .group_company_item img {
+    width: 50px;
+    flex: 0 0 50px;
+    height: auto;
+  }
+  #top .group_company_list .col_auto:nth-child(3) .group_company_item img {
+    width: 61px;
+    flex: 0 0 61px;
+    height: auto;
+  }
+  #top .group_company_list .col_auto:nth-child(4) .group_company_item .image_wrap img {
+    width: 54px;
+    flex: 0 0 54px;
+    height: auto;
+  }
+  #top .group_company_list .col_auto:nth-child(5) .group_company_item img {
+    width: 46px;
+    flex: 0 0 46px;
+    height: auto;
+  }
+  #top .group_company_list .col_auto:nth-child(6) .group_company_item img {
+    width: 52px;
+    flex: 0 0 52px;
+    height: auto;
+  }
+  #top .group_company_list .col_auto:nth-child(7) .group_company_item img {
+    width: 76px;
+    flex: 0 0 76px;
+    height: auto;
+  }
+  #top .group_company_list {
+    margin-bottom: 28px;
+  }
+  #top .oat_group_box .link_btn_wrap .link_btn {
+    margin-left: auto;
+  }
+  #top .oat_group_sdgs_wrap {
+    width: 100%;
+    padding: 15px;
+  }
+  #top .oat_group_sdgs_list {
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+  #top .oat_group_sdgs_box .oat_group_title h3 {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  #top .oat_group_body {
+    padding: 24px 13px 45px;
+  }
+  #top .oat_group_sdgs_section {
+    position: relative;
+    padding-bottom: 45px;
+  }
+  #business_summary .intro_title {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  #business_summary .intro_three_part_wrap {
+    grid-template-columns: 100%;
+    grid-row-gap: 35px;
+  }
+  #business_summary .intro_three_part_item h3 {
+    font-size: 20px;
+  }
+  #business_summary .intro_section {
+    padding: 35px 0 30px;
+  }
+  #business_summary .agriculture_intro_section {
+    padding: 30px 0 0;
+  }
+  #business_summary .common_intro_item {
+    margin-bottom: 30px;
+  }
+  #business_summary .agriculture_intro_section .common_intro_item {
+    margin-bottom: 42px;
+  }
+  #business_summary .agriculture_needs_list_wrap {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, calc((100% - 20px) / 2));
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+  }
+  #business_summary .agriculture_needs_list {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 20px 15px;
+    margin-bottom: 40px;
+  }
+  #business_summary .agriculture_needs_name {
+    letter-spacing: 0;
+  }
+  #business_summary .agriculture_process .info_image {
+    overflow-x: scroll;
+    padding-bottom: 10px;
+  }
+  #business_summary .agriculture_process .info_image .image_wrap {
+    width: 1000px;
+  }
+  #business_summary .agriculture_process .info_image .image_help_text {
+    width: 1000px;
+  }
+  #business_summary .agriculture_process .info_image::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  #business_summary .agriculture_process .info_image::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+  }
+  #business_summary .agriculture_process .info_image::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
+  }
+  #business_summary .l_row .col_md_6:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  #business_summary .biostimulant_section {
+    padding: 30px 0 80px;
+  }
+  #business_summary .provide_regular_body {
+    grid-template-columns: 100%;
+    grid-row-gap: 20px;
+  }
+  #business_summary .provide_regular_info {
+    padding: 30px 20px 30px 30px;
+    margin-right: -15px;
+  }
+  #business_summary .provide_regular_info .info_title {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: left;
+  }
+  #business_summary .provide_regular_info .info_text {
+    font-size: 14px;
+    line-height: 2.1;
+  }
+  #business_summary .countries_list_wrap {
+    grid-template-columns: 100%;
+  }
+  #business_summary .countries_33_list .countries_list_body {
+    display: grid;
+    grid-template-columns: repeat(3, calc( (100% - 12px) / 3));
+    grid-template-rows: unset;
+    grid-column-gap: 6px;
+    grid-auto-flow: row;
+  }
+  #business_summary .country_img {
+    width: 24px;
+    height: 17px;
+  }
+  #business_summary .country_item {
+    display: grid;
+    grid-template-columns: 24px auto;
+    grid-column-gap: 3px;
+    margin-bottom: 15px;
+  }
+  #business_summary .country_name {
+    font-family: "Noto Sans JP";
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: -0.12em;
+    white-space: nowrap;
+    line-height: 1.4;
+  }
+  #business_summary .provide_regulator_box {
+    margin-bottom: 0;
+  }
+  #business_summary .countries_33_list {
+    margin-bottom: 35px;
+  }
+  #business_summary .countries_9_list .countries_list_body {
+    display: grid;
+    grid-template-columns: repeat(3, calc( (100% - 12px) / 3));
+    grid-column-gap: 6px;
+  }
+  #business_summary .countries_list_title h3 {
+    font-size: 16px;
+  }
+  #business_summary .page_description_body {
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 28px;
+  }
+  #business_summary .page_description_image .image_info_box .image_wrap {
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0;
+  }
+  #business_summary .page_descrption_info_text .sm_noto_text {
+    font-size: 16px;
+  }
+  #business_summary .page_description_image .image_info_help_text {
+    margin-top: 16px;
+    padding-left: 0;
+  }
+  #business_summary .company_position_section .image_info_box .image_wrap {
+    box-shadow: 0 0 1px rgba(112, 112, 112, 0.55);
+  }
+  #business_summary .company_position_section .image_info_box img {
+    width: 125%;
+  }
+  #business_summary .company_center_body {
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 24px;
+  }
+  #business_summary .company_center_box::before {
+    content: "";
+    position: absolute;
+    top: 65px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  #business_summary .company_center_box {
+    padding-top: 0;
+  }
+  #business_summary .company_center_section {
+    padding-bottom: 90px;
+  }
+  #business_summary .oversea_product_item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 14px;
+  }
+  #business_summary .oversea_product_image {
+    padding: 0;
+  }
+  #business_summary .oversea_product_item_info::before {
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+  }
+  #business_summary .oversea_product_item_info {
+    position: relative;
+    padding-left: 26px;
+  }
+  #business_summary .contribute_title h3 {
+    font-family: "Noto Serif JP";
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    line-height: 1.8;
+  }
+  #business_summary .contribute_title {
+    margin-bottom: 15px;
+  }
+  #business_summary .contribute_main_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -15px;
+    margin-right: -15px;
+    width: auto;
+  }
+  #business_summary .contribute_to_world_section {
+    position: relative;
+    padding: 40px 0 45px;
+  }
+  #business_summary .page_description .page_intro_text {
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    line-height: 2;
+  }
+  #business_summary .production_intro_section {
+    position: relative;
+    padding: 62px 0 60px;
+  }
+  #business_summary .naroto_company_section {
+    position: relative;
+    padding: 45px 0 90px;
+  }
+  #products .product_category_title h3 {
+    font-size: 14px;
+  }
+  #products .product_category_section {
+    position: relative;
+    padding: 20px 0 30px;
+  }
+  #products .product_category_body {
+    padding: 10px 0;
+  }
+  #products .product_category_item {
+    position: relative;
+    padding: 0 20px;
+  }
+  #products .product_category_item .category {
+    font-size: 16px;
+    line-height: 2.1;
+  }
+  #products .product_search_title h3 {
+    font-size: 20px;
+  }
+  #products .product_search_title .sm_noto_text {
+    font-size: 12px;
+  }
+  #products .product_search_title {
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+  }
+  #products .product_search_type_2 .selectbox_container:nth-child(1) {
+    margin-bottom: 8px;
+  }
+  #products .product_search_input_box {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #products .product_search_submit_wrap .blue_btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #products .product_search_input_wrap {
+    margin-bottom: 38px;
+  }
+  #products .product_search_input_box {
+    padding-bottom: 38px;
+  }
+  #products .product_search_section {
+    position: relative;
+    padding: 20px 0 75px;
+  }
+  #products .product_search_result_text {
+    position: relative;
+    padding-top: 20px;
+  }
+  #products .product_search_result_text .sm_noto_text {
+    font-size: 12px;
+  }
+  #products .product_search_result_body {
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 30px;
+  }
+  #products .product_search_result_section {
+    padding: 40px 0;
+  }
+  #products .product_search_result_item .product_info {
+    position: relative;
+    width: calc(100% - 40px);
+    min-height: auto;
+    margin-top: -86px;
+    padding: 15px;
+  }
+  #products .product_search_result_item .product_info_title h3 {
+    font-size: 24px;
+  }
+  #products .product_search_result_item .product_info_text .m_noto_text {
+    font-size: 14px;
+  }
+  #products .product_search_result_item .product_link {
+    font-size: 14px;
+    padding: 0 12px;
+  }
+  #products .product_search_result_item .product_link::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    right: 0;
+    width: 5px;
+    height: 10px;
+  }
+  #products .expand_information_title h3 {
+    font-size: 18px;
+    letter-spacing: 0.06em;
+  }
+  #products .expand_information_box {
+    padding: 20px;
+  }
+  #products .expand_information_title {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  #products .expand_information_item .info_time {
+    font-size: 12px;
+  }
+  #products .expand_information_item .info_text {
+    font-size: 14px;
+  }
+  #products .product_description_body {
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 15px;
+  }
+  #products .product_description_title {
+    position: relative;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+  }
+  #products .product_description_title h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  #products .product_description_text .sm_text {
+    font-size: 13px;
+  }
+  #products .product_description_section {
+    padding: 0 0 50px;
+  }
+  #products .product_sub_category_list .selectbox_container .select-items div,
+  #products .product_sub_category_list .selectbox_container .select-selected {
+    text-align: center;
+    padding: 8px 30px 8px 30px;
+    font-family: "Noto Serif JP";
+    font-weight: normal;
+  }
+  #products .product_sub_category_list .selectbox_container .select-selected {
+    color: #005aa8;
+  }
+  #products .product_sub_category_list .selectbox_container .select-items {
+    position: relative;
+    left: 0;
+    right: 0;
+    /* border: 1px solid #005AA8; */
+    box-shadow: none;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+  }
+  #products .product_sub_category_list .selectbox_container .select-items div {
+    background-color: #005AA8;
+    /* background: linear-gradient(to bottom, #005AA8, #0376D9); */
+    color: #fff;
+  }
+  #products .product_sub_category_list .selectbox_container .select-items div:hover,
+  #products .product_sub_category_list .selectbox_container .select-items .same-as-selected {
+    background-color: #fff;
+    color: #005AA8;
+  }
+  #products .product_sub_category_list {
+    margin-bottom: 30px;
+  }
+  #products .product_list_table table tr td:nth-child(4) img {
+    max-width: 50px;
+    width: 100%;
+    height: auto;
+  }
+  #products .product_list_table table tr th:nth-child(1) {
+    width: 16% !important;
+  }
+  #products .product_list_table table tr th:nth-child(2) {
+    width: 25% !important;
+  }
+  #products .product_list_table table tr th:nth-child(4) {
+    width: 18% !important;
+  }
+  #products .product_list_section {
+    padding: 20px 0 150px;
+  }
+  #products .product_list_table table tr td:nth-child(3) {
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  #products #product_custom_modal .product_detail_box_body {
+    display: block;
+    grid-template-columns: unset;
+    grid-column-gap: unset;
+  }
+  .close_modal_toggle {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 40px;
+    height: 40px;
+    padding: 4px 4px 2px;
+    z-index: 3;
+  }
+  .close_modal_toggle p {
+    font-size: 7px;
+    line-height: 1.7;
+  }
+  .close_modal_toggle .close_icon {
+    width: 16px;
+    height: 16px;
+  }
+  #products #product_custom_modal .product_detail_box {
+    margin-right: 0;
+    padding-top: 15px;
+    padding-bottom: 7px;
+    margin-bottom: 15px;
+  }
+  #products #product_custom_modal .detail_inner_top {
+    margin-left: 112px;
+  }
+  #products #product_custom_modal .product_detail_image {
+    position: absolute;
+    width: 100px;
+    top: 0;
+    left: 0;
+  }
+  #products #product_custom_modal .product_category {
+    padding: 4px 10px;
+    font-size: 12px;
+    line-height: 1.6;
+    margin-right: 10px;
+  }
+  #products #product_custom_modal .product_register_number {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  #products #product_custom_modal .product_name h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  #products #product_custom_modal .product_name p {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+  #products #product_custom_modal .product_detail_inner .product_special_info {
+    margin-bottom: 8px;
+  }
+  #products #product_custom_modal .detail_inner_top {
+    margin-bottom: 33px;
+  }
+  #product_custom_modal .link_btn {
+    height: 42px;
+    font-size: 13px;
+    line-height: 1.6;
+    width: auto;
+    padding: 6px 22px 6px 10px;
+  }
+  #product_custom_modal .product_inquiry_link_wrap .link_btn {
+    width: 100%;
+  }
+  #products #product_custom_modal .product_pdf_link_wrap {
+    margin-left: -4px;
+    margin-right: -4px;
+  }
+  #products #product_custom_modal .product_pdf_link_wrap .btn_container {
+    flex: 0 0 auto;
+    width: auto;
+    margin-right: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-bottom: 8px;
+  }
+  #product_custom_modal .link_btn::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    right: 12px;
+  }
+  #products #product_custom_modal .product_inquiry_link_wrap {
+    margin-bottom: 8px;
+  }
+  #products #product_custom_modal .product_detail_table table,
+  #products #product_custom_modal .product_detail_table table th,
+  #products #product_custom_modal .product_detail_table table td {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+  #products #product_custom_modal .product_detail_table table th {
+    width: 28%;
+  }
+  #products #product_custom_modal .product_features {
+    margin-bottom: 30px;
+  }
+  #products #product_custom_modal .using_method_title {
+    margin-bottom: 15px;
+  }
+  #products #product_custom_modal .retrict_icon_wrap .image_wrap {
+    max-width: 25px;
+    margin-left: 1px;
+  }
+  #products #product_custom_modal .precautions {
+    margin-bottom: 30px;
+  }
+  #products #product_custom_modal .sm_noto_text {
+    font-size: 12px;
+  }
+  #products #product_custom_modal .modal_close_btn_wrap {
+    margin-top: 65px;
+  }
+  #products #product_custom_modal .product_detail_image img {
+    width: 100px;
+    height: 90px;
+  }
+  #products .product_search_type_2 .product_main_category {
+    margin-bottom: 10px;
+  }
+  #products.contact_page .breadcrumbs {
+    padding: 15px 0 50px;
+  }
+  #products.contact_page .description_text {
+    font-size: 14px;
+    margin-bottom: 60px;
+  }
+  #products.contact_page .contact_step {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+  }
+  #products.contact_page .contact_step_title {
+    margin-bottom: 45px;
+  }
+  #products.contact_page .contact_step_description {
+    position: relative;
+    padding: 0 0 60px;
+  }
+  #products.contact_page .contact_form_section {
+    position: relative;
+    padding: 60px 0 40px;
+  }
+  #products.contact_page .contact_input_label .label {
+    font-size: 14px;
+    margin-right: 6px;
+  }
+  #products.contact_page .contact_radiobox_wrap label {
+    font-size: 14px;
+  }
+  #products.contact_page .wpcf7-form-control {
+    justify-content: flex-start;
+  }
+  #products.contact_page .wpcf7-list-item {
+    padding-left: 8px;
+  }
+  #products.contact_page .wpcf7-list-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  #products.contact_page .contact_radiobox_wrap .wpcf7-list-item label input[type="radio"]+*::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+  }
+  #products.contact_page .contact_radiobox_wrap .wpcf7-list-item label input[type="radio"]:checked+*::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+  }
+  #products.contact_page .contact_input_item {
+    margin-bottom: 20px;
+  }
+  #products.contact_page .contact_form_box.box_1 {
+    margin-bottom: 60px;
+  }
+  #products.contact_page .contact_form_box {
+    position: relative;
+    margin-bottom: 60px;
+  }
+  #products.contact_page .contact_form_title h3 {
+    font-size: 18px;
+  }
+  #products.contact_page .contact_form_title {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  #products.contact_page .require {
+    font-size: 14px;
+  }
+  #products.contact_page .contact_input_item_wrap,
+  #products.contact_page .contact_input_item_wrap_small {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, calc((100% - 20px) / 2));
+    grid-column-gap: 20px;
+  }
+  #products.contact_page .contact_form_title p {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  #products.contact_page .contact_form_box.box_2 {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  #products.contact_page .contact_form_submit_wrap .blue_btn {
+    width: 265px;
+  }
+  #products.contact_page .contact_confirm_message_wrap {
+    position: relative;
+    padding: 15px 0 15px;
+    margin-bottom: 45px;
+  }
+  #products.contact_page .contact_confirm_message {
+    font-size: 16px;
+    padding: 12px 15px;
+  }
+  #products.contact_page .contact_confirm_section {
+    padding: 60px 0 70px;
+  }
+  #products.contact_page .contact_confirm_text {
+    font-size: 14px;
+  }
+  #products.contact_page.confirm .contact_form_box {
+    position: relative;
+    margin-bottom: 90px;
+  }
+  #products.contact_page.done .contact_steps {
+    position: relative;
+    padding: 15px 0 15px;
+    margin-bottom: 60px;
+  }
+  #products.contact_page.done .message_header h3 {
+    font-size: 18px;
+  }
+  #products.contact_page.done .message_header {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  #products.contact_page.done .message_content {
+    margin-bottom: 60px;
+  }
+  #products.contact_page.done .thank_you_message_box {
+    margin-bottom: 0px;
+  }
+  #products.urgent .breadcrumbs {
+    padding: 10px 0;
+  }
+  #products.urgent .page_description_section {
+    position: relative;
+    padding: 15px 0 40px;
+  }
+  #products.urgent .urgent_info_section .sp .common_table_16 th {
+    line-height: 1.4;
+  }
+  #products.urgent .urgent_info_section .sp .common_table_16 th span {
+    display: inline-block;
+  }
+  #products.urgent .urgent_info_section .sp .common_table_16 th small {
+    display: inline-block;
+    line-height: 1.6;
+  }
+  #products.urgent .urgent_info_section .sp .common_table_16 th,
+  #products.urgent .urgent_info_section .sp .common_table_16 td {
+    padding: 6px 0;
+  }
+  #products.urgent .urgent_info_section .sp .common_table_16 small {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  #products.urgent .urgent_info_section .m_info_box {
+    margin-bottom: 38px;
+  }
+  #products.urgent .urgent_info_section {
+    padding: 0 0 100px;
+  }
+  #products.urgent .page_description_section .page_description_title h3 {
+    font-size: 22px;
+  }
+  #products.urgent .urgent_info_section .table_title_text {
+    font-family: "Noto Sans JP";
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 1.8;
+    text-align: center;
+    color: #3e3e3e;
+    margin-bottom: 12px;
+  }
+  #products.notes .breadcrumbs {
+    padding: 10px 0;
+  }
+  #products.notes .page_description_section {
+    position: relative;
+    padding: 15px 0 40px;
+  }
+  #products.notes .page_description_section .page_description_title {
+    margin-bottom: 20px;
+  }
+  #products.notes .page_description_section .page_description_title h3 {
+    font-size: 22px;
+  }
+  #products.notes .page_description_section .page_description_text .m_noto_text {
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  }
+  #products.notes .notes_info_section .m_info_title h3 {
+    text-align: left;
+    font-size: 18px;
+  }
+  #products.notes .notes_info_section .common_text_list_15 li:not(:last-child) {
+    margin-bottom: 28px;
+  }
+  #products.notes .notes_info_section .common_text_list_15 {
+    padding-left: 24px;
+  }
+  #products.notes .notes_info_section .m_info_box:not(:last-child) {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  #products.notes .notes_info_section .m_info_box .m_info_text {
+    color: #5C5C5C;
+    margin-bottom: 15px;
+  }
+  #products.notes .notes_info_section {
+    position: relative;
+    padding: 0 0 75px;
+  }
+  /* enlarge css */
+  #enlarge .enlarge_years_section .select_link_container {
+    max-width: 200px;
+  }
+  #enlarge .enlarge_years_section .select_link_container .select-items a,
+  #enlarge .enlarge_years_section .select_link_container .select-selected {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 20px;
+  }
+  #enlarge .enlarge_years_section {
+    position: relative;
+    padding: 15px 0 30px;
+  }
+  #enlarge .enlarge_table_wrap {
+    overflow-x: auto;
+    padding-bottom: 15px;
+  }
+  #enlarge .enlarge_table_wrap .common_table_16 th:nth-child(1) {
+    width: 11%;
+  }
+  #enlarge .enlarge_table_section {
+    position: relative;
+    padding: 0 0 50px;
+  }
+  #enlarge .enlarge_table_wrap .common_table_16 th:nth-child(2) {
+    width: 17%;
+  }
+  #enlarge .enlarge_table_wrap .common_table_16 th:nth-child(3) {
+    width: 26%;
+  }
+  /* Company css */
+  #company.management .manager_slogan_text {
+    font-size: 20px;
+    line-height: 1.8;
+  }
+  #company.management .manager_slogan_info {
+    padding: 18px 18px 20px;
+  }
+  #company.management .manager_slogan_box {
+    position: relative;
+    display: grid;
+    grid-template-columns: 57% auto;
+    margin-bottom: 30px;
+  }
+  #company.management .manager_slogan_box .manager_image .image_wrap {
+    height: 100%;
+  }
+  #company.management .manager_slogan_box .manager_image img {
+    position: relative;
+    height: 100%;
+  }
+  #company.management .manager_greeting_section {
+    position: relative;
+    padding: 18px 0 80px;
+  }
+  #company.management .manager_intro_text {
+    margin-bottom: 25px;
+  }
+  #company.management .manager_greeting_box {
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 25px;
+  }
+  #company.management .manager_greeting_text {
+    margin-bottom: 40px;
+  }
+  #company.philosophy .philosophy_main_section .philosophy_main_box .philosophy_main_text {
+    position: absolute;
+    padding: 18px 6px 18px 11px;
+    width: 320px;
+    height: 80px;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: left;
+    color: #005aa8;
+  }
+  #company.philosophy .philosophy_main_section {
+    position: relative;
+    padding: 20px 0 150px;
+  }
+  .philosophy_code_list {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  .philosophy_code_list li {
+    position: relative;
+    padding: 19px 0 13px 38px;
+  }
+  .philosophy_code_list li::before {
+    font-size: 24px;
+    top: 16px;
+  }
+}

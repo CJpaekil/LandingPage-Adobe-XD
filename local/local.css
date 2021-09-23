@@ -1,0 +1,2994 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/*--------------------
+01.top
+02.
+03.
+04.
+--------------------*/
+
+
+/*----------
+01.top
+----------*/
+
+
+/* Top Slider */
+
+#top .slide_container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding: 0;
+  z-index: 1;
+}
+
+#top .slide_container .slick-list {
+  height: 100%;
+}
+
+#top .slide_container .slide_item {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#top .gallery_top .slick-dots {
+  position: absolute;
+  bottom: 48px;
+  display: block;
+  width: 100%;
+  max-width: 1222px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 15px;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+}
+
+@media (min-width: 1400px) {
+  #top .gallery_top .slick-dots {
+    max-width: 1346px;
+  }
+}
+
+#top .slide_container .slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 0 8px 0 0;
+  vertical-align: middle;
+  padding: 0;
+  cursor: pointer;
+}
+
+#top .slide_container .slick-dots li button {
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  border-radius: 0;
+  background: #fff;
+  border: none;
+  opacity: 1;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#top .slide_container .slick-dots li button::before {
+  display: none;
+}
+
+#top .slide_container .slick-dots li.slick-active button {
+  background: #005AA8;
+}
+
+
+/* main css */
+
+#top section#intro {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+}
+
+#top #intro .intro_container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: auto;
+  right: 0;
+  height: 68%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+}
+
+#top #intro h2 {
+  font-family: 'Vollkorn', serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 34px;
+  letter-spacing: 0.12em;
+  line-height: 1.2;
+  text-align: left;
+  color: #fff;
+}
+
+#top #intro p {
+  font-family: "Noto Serif JP";
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.12em;
+  line-height: 1.6;
+  text-align: left;
+  color: #fff;
+}
+
+#top .slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+#top .news_section {
+  position: relative;
+  padding: 50px 0;
+}
+
+#top .news_wrap {
+  position: relative;
+  display: grid;
+  grid-template-columns: 187px auto;
+  grid-column-gap: 20px;
+}
+
+#top .section_title {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+#top .section_title h3 {
+  position: relative;
+  font-family: "Vollkorn";
+  font-weight: normal;
+  font-size: 38px;
+  letter-spacing: 0.03em;
+  line-height: 1.5;
+  text-align: left;
+  color: #0059a5;
+}
+
+#top .news_container {
+  position: relative;
+}
+
+#top .news_list {
+  position: relative;
+  margin-bottom: 61px;
+}
+
+#top .news_item {
+  display: grid;
+  grid-template-columns: auto 120px;
+  grid-column-gap: 15px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+#top .news_item {
+  border-bottom: 1px solid #DBDBDB;
+}
+
+#top .news_info_text {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: "Noto Serif JP";
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  line-height: 1.0;
+  text-align: left;
+  color: #6c6767;
+  margin-left: -12px;
+  margin-bottom: 10px;
+}
+
+#top .news_info_text span {
+  position: relative;
+  display: inline-block;
+  padding: 0 13px 0 12px;
+}
+
+#top .news_info_text span:not(:last-child) {
+  border-right: 1px solid #6C6767;
+}
+
+#top .news_column_right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#top .products_section {
+  position: relative;
+  padding: 50px 0 100px;
+}
+
+#top .products_slider_box {
+  position: relative;
+  padding-left: calc(50% - 500px);
+  margin-bottom: 50px;
+}
+
+#top .products_wrap {
+  position: relative;
+  display: grid;
+  grid-template-columns: 187px calc(100% - 207px);
+  grid-column-gap: 20px;
+}
+
+#top .products_wrap::before {
+  content: "";
+  position: absolute;
+  top: 60px;
+  left: -60px;
+  right: 0;
+  bottom: 0;
+  background-color: #F7F7F7;
+  z-index: 0;
+}
+
+#top .products_header_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+#top .products_container {
+  position: relative;
+  z-index: 1;
+}
+
+#top .products_list_slider .slick-list {
+  overflow: hidden;
+}
+
+#top .products_header_container .section_title {
+  margin-bottom: 75px;
+}
+
+#top .products_list_slider {
+  overflow: hidden;
+}
+
+#top .products_list_slider .slick-list {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+#top .product_slide_item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#top .product_slide_image {
+  margin-bottom: 25px;
+}
+
+#top .product_slide_inner .product_name {
+  margin-bottom: 3px;
+}
+
+#top .product_description .sm_text {
+  color: #070707;
+}
+
+#top .products_list_slider {
+  margin-bottom: 60px;
+}
+
+#top .top_company_section {
+  position: relative;
+  background-color: #005AA8;
+  padding-bottom: 70px;
+}
+
+#top .company_container {
+  position: relative;
+  padding-left: calc(50% - 500px);
+}
+
+#top .company_title {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#top .company_title h3 {
+  font-family: "Vollkorn";
+  font-weight: normal;
+  font-size: 38px;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+  text-align: left;
+  color: #fff;
+}
+
+#top .company_title p {
+  font-family: "Noto Serif JP";
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.12em;
+  line-height: 1.8;
+  text-align: left;
+  color: #fff;
+}
+
+#top .company_intro_text h2 {
+  font-family: "Noto Serif JP";
+  font-weight: 500;
+  font-size: 48px;
+  letter-spacing: 0.14em;
+  line-height: 1.2;
+  text-align: left;
+  color: #fff;
+}
+
+#top .top_company_section .company_image {
+  margin-bottom: 57px;
+}
+
+#top .top_philosophy_section {
+  position: relative;
+  padding: 145px 0 160px;
+}
+
+#top .philosophy_title {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+#top .common_header h3 {
+  font-family: "Vollkorn";
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+  color: #0059a5;
+}
+
+#top .common_header h2 {
+  font-family: "Noto Serif JP";
+  font-weight: 500;
+  font-size: 26px;
+  letter-spacing: 0.11em;
+  line-height: 1.5;
+  text-align: left;
+  color: #050505;
+}
+
+#top .common_header p {
+  color: #070707;
+  margin-top: 20px;
+}
+
+#top .technology_box {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+#top .technology_box .title {
+  position: relative;
+  font-family: "Noto Serif JP";
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+  text-align: left;
+  color: #0059a5;
+  margin-bottom: 12px;
+  padding-left: 30px;
+}
+
+#top .technology_box .title::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 1px;
+  background-color: #0059A5;
+}
+
+#top .technology_box .sm_text {
+  color: #070707;
+  padding-left: 30px;
+}
+
+#top .philosophy_item h3 {
+  position: relative;
+  border-bottom: 1px solid #D6D6D6;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+}
+
+#top .philosophy_item p {
+  letter-spacing: 0.02em;
+  color: #3E3E3E;
+}
+
+#top .three_philosophy_wrap {
+  position: relative;
+  display: grid;
+  grid-template-columns: calc(68% - 40px) auto;
+  grid-column-gap: 40px;
+  max-width: 870px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#top .three_philosophy_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#top .three_philosophy_inner {
+  display: flex;
+  align-items: center;
+}
+
+#top .philosophy_list {
+  position: relative;
+  width: 100%;
+}
+
+#top .philosophy_item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+#top .manage_plan_container {
+  position: relative;
+}
+
+#top .manage_plan_main_image {
+  padding-right: calc(50% - 500px);
+}
+
+#top .manage_plan_box {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: calc(50% - 500px + 710px);
+  height: 682px;
+  padding: 60px calc(50vw - 500px + 60px) 45px 64px;
+  backdrop-filter: blur(33.04899978637695px);
+  --webkit-backdrop-filter: blur(33.04899978637695px);
+  background-color: rgba(255, 255, 255, 0.65);
+}
+
+#top .manage_plan_graph {
+  position: relative;
+}
+
+#top .manager_plan_title {
+  margin-bottom: 66px;
+}
+
+#top .manage_plan_graph .image_wrap {
+  max-width: 443px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#top .top_three_principles_section {
+  position: relative;
+  padding: 130px 0 0 0;
+  counter-reset: principles;
+}
+
+#top .three_principles_title {
+  position: relative;
+  padding-bottom: 46px;
+}
+
+#top .three_principles_title h3 {
+  position: relative;
+  font-family: "Noto Serif JP";
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.12em;
+  line-height: 1.6;
+  text-align: center;
+  color: #005aa8;
+}
+
+#top .three_principles_title::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 28px;
+  background-color: #005AA8;
+}
+
+#top .three_principles_wrap {
+  position: relative;
+  margin-top: -150px;
+  margin-bottom: 70px;
+}
+
+#top .three_principles_wrap .priciple_image {
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+#top .three_principles_wrap .priciple_image::before {
+  position: absolute;
+  counter-increment: principles;
+  content: "0"counter(principles);
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Noto Serif JP";
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.12em;
+  line-height: 38px;
+  text-align: center;
+  color: #005aa8;
+  z-index: 1;
+}
+
+#top .three_principles_box {
+  position: relative;
+}
+
+#top .three_principles_box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 28px;
+  background-color: #fff;
+}
+
+#top .three_principles_box .principle_title {
+  font-family: "Noto Serif JP";
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.11em;
+  line-height: 1.4;
+  text-align: center;
+  color: #005aa8;
+  margin-bottom: 26px;
+}
+
+#top .three_principles_main_text_wrap {
+  position: relative;
+  background-image: url(../img/top/thee_principles_bg.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: calc(7.4vw + 72px) 30px 72px;
+}
+
+#top .principle_main_text {
+  font-family: "Noto Serif JP";
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 0.12em;
+  line-height: 1.8;
+  text-align: center;
+  color: #fff;
+}
+
+#top .principle_main_text span {
+  font-size: 44px;
+}
+
+#top .box_social_links {
+  display: flex;
+  align-items: center;
+}
+
+#top .box_social_links>li {
+  margin-right: 20px;
+}
+
+#top .box_social_links>li a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+}
+
+#top .box_social_links>li a img {
+  width: 100%;
+}
+
+#top .realization_philosophy_section {
+  position: relative;
+  padding-bottom: 45px;
+}
+
+#top .realization_philosophy_box {
+  position: relative;
+  max-width: calc(1000px + 160px);
+  padding: 60px 80px 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  margin-top: -60px;
+  z-index: 1;
+}
+
+#top .realization_philosophy_body {
+  display: grid;
+  grid-template-columns: 45% 43%;
+  grid-column-gap: 12%;
+}
+
+#top .realization_philosophy_image_list {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 9px;
+  grid-row-gap: 9px;
+}
+
+#top .realization_philosophy_info .box_title {
+  margin-bottom: 30px;
+}
+
+#top .realization_philosophy_info .box_title h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#top .realization_philosophy_info .box_title p {
+  margin-top: 25px;
+}
+
+#top .agrio_aim_section {
+  position: relative;
+}
+
+#top .agrio_aim_title {
+  position: relative;
+  padding-bottom: 46px;
+}
+
+#top .agrio_aim_title::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 28px;
+  background-color: #005AA8;
+}
+
+#top .agrio_aim_title h3 {
+  position: relative;
+  font-family: "Noto Serif JP";
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.12em;
+  line-height: 1.6;
+  text-align: center;
+  color: #005aa8;
+}
+
+#top .argrio_aim_main_text {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 684px;
+  height: 204px;
+  background: #fff;
+  padding: 30px;
+}
+
+#top .argrio_aim_main_text h3 {
+  font-family: "Noto Serif JP";
+  font-weight: 500;
+  font-size: 26px;
+  letter-spacing: 0.11em;
+  line-height: 1.5;
+  text-align: center;
+  color: #050505;
+}
+
+#top .new_manage_plan_section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/top/new_manage_plan_main_image.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 582px;
+  height: 50vw;
+}
+
+#top .new_manage_plan_container {
+  position: relative;
+}
+
+#top .new_manage_plan_text {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+#top .new_manage_plan_text h3 {
+  font-family: "Noto Serif JP";
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 0.07em;
+  line-height: 1.6;
+  text-align: center;
+  color: #005aa8;
+}
+
+#top .new_manage_plan_text h3 .term_date {
+  font-size: 22px;
+}
+
+#top .six_advantages_section {
+  position: relative;
+  background-color: #005AA8;
+  padding-bottom: 70px;
+}
+
+#top .six_advantages_section .company_image {
+  margin-bottom: 57px;
+}
+
+#top .csr_initiations_section {
+  position: relative;
+  counter-reset: initiation_counter;
+}
+
+#top .csr_initiation_container {
+  position: relative;
+}
+
+#top .csr_initiation_main_image {
+  position: relative;
+  padding-left: calc(50% - 500px);
+  width: 100%;
+}
+
+#top .csr_initiation_box {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 500px - 78px);
+  max-width: calc(1000px + 156px);
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 60px;
+}
+
+#top .csr_initiation_body {
+  position: relative;
+  padding: 96px 63px 100px;
+  max-width: 50%;
+  width: 50%;
+  background-color: #fff;
+  height: 100%;
+}
+
+#top .csr_initiation_title {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#top .csr_initiation_title h3 {
+  position: relative;
+  font-family: "Noto Serif JP";
+  font-weight: 500;
+  font-size: 26px;
+  letter-spacing: 0.11em;
+  line-height: 1.8;
+  text-align: left;
+  color: #333;
+  padding-left: 34px;
+}
+
+#top .csr_initiation_title h3::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  counter-increment: initiation_counter;
+  content: counter(initiation_counter);
+  font-family: Vollkorn;
+  font-weight: normal;
+  font-size: 32px;
+  letter-spacing: 0.03em;
+  line-height: 1.5;
+  text-align: left;
+  color: #005aa8;
+}
+
+#top .csr_initiation_slider {
+  position: relative;
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+#top .csr_initiation_slider .slick-list {
+  margin-left: -10px;
+  margin-right: -10px;
+  height: 100%;
+}
+
+#top .csr_initiation_slider .slick-track {
+  height: 100%;
+}
+
+#top .csr_initiation_slide_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#top .csr_initiation_body .slick_arrows {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  background-color: #fff;
+}
+
+#top .csr_initiation_slider .slick-dots {
+  bottom: -50px;
+}
+
+#top .csr_initiation_slider .slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+#top .csr_initiation_slider .slick-dots li button {
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #A2A3A3;
+  padding: 0px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: 0;
+  margin: auto;
+  margin-right: auto;
+}
+
+#top .csr_initiation_slider .slick-dots li button::before {
+  content: "";
+  font-size: 6px;
+  line-height: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 6px;
+  height: 6px;
+  background: #A2A3A3;
+  text-align: center;
+  opacity: 1;
+  border-radius: 50%;
+  color: #A2A3A3;
+}
+
+#top .csr_initiation_slider .slick-dots li:not(:last-child) button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 20px;
+  height: 1px;
+  transform: translateY(-50%);
+  background-color: #A2A3A3;
+}
+
+#top .csr_initiation_slider .slick-dots li.slick-active button::before {
+  width: 10px;
+  height: 10px;
+  background: #005AA8;
+  z-index: 1;
+}
+
+#top .oat_group_container {
+  position: relative;
+}
+
+#top .oat_group_main_image {
+  position: relative;
+  padding-right: calc(50% - 500px);
+}
+
+#top .oat_group_box {
+  position: absolute;
+  bottom: 0;
+  right: calc(50% - 500px - 90px);
+  max-width: calc(1000px + 180px);
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 60px;
+}
+
+#top .oat_group_body {
+  position: relative;
+  padding: 70px 75px;
+  max-width: 50%;
+  width: 50%;
+  background-color: #fff;
+  height: 100%;
+  margin-left: auto;
+}
+
+#top .oat_group_title {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+#top .group_company_item {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+#top .group_company_list {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+#top .group_company_item .image_wrap img {
+  height: 37px;
+  width: auto;
+}
+
+#top .oat_group_box .link_btn_wrap .link_btn {
+  margin-left: 0;
+}
+
+#top .oat_group_sdgs_container {
+  position: relative;
+}
+
+#top .oat_group_sdgs_main_image {
+  position: relative;
+  padding-left: calc(50% - 500px);
+}
+
+#top .oat_group_sdgs_box {
+  position: absolute;
+  bottom: 0;
+  right: calc(50% - 500px - 90px);
+  max-width: calc(1000px + 180px);
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 60px;
+}
+
+#top .oat_group_sdgs_box .oat_group_body {
+  margin-left: 0;
+}
+
+#top .oat_group_sdgs_box .oat_group_title {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+#top .oat_group_sdgs_box .oat_group_text {
+  margin-bottom: 40px;
+}
+
+#top .oat_group_sdgs_wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  padding: 20px 0 40px 70px;
+}
+
+#top .oat_group_sdgs_list {
+  display: grid;
+  grid-template-columns: repeat(6, 64px);
+  grid-column-gap: 22px;
+  grid-row-gap: 22px;
+}
+
+@media (min-width: 1024px) and (max-width: 1180px) {
+  #top .oat_group_sdgs_list {
+    grid-template-columns: repeat(4, 64px);
+  }
+}
+
+
+/* Business summary */
+
+#business_summary .intro_section {
+  position: relative;
+  padding: 35px 0 50px;
+}
+
+#business_summary .intro_title {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+#business_summary .intro_three_part_wrap {
+  position: relative;
+  display: grid;
+  grid-template-columns: calc(68% - 40px) auto;
+  grid-column-gap: 40px;
+  max-width: 870px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#business_summary .intro_three_part_image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#business_summary .intro_three_part_info {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#business_summary .intro_three_part_list {
+  position: relative;
+  width: 100%;
+}
+
+#business_summary .intro_three_part_item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+#business_summary .intro_three_part_item h3 {
+  position: relative;
+  border-bottom: 1px solid #D6D6D6;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+}
+
+#business_summary .intro_three_part_item p {
+  letter-spacing: 0.02em;
+  color: #3E3E3E;
+}
+
+#business_summary .agriculture_intro_section {
+  position: relative;
+  padding: 50px 0;
+}
+
+#business_summary .agriculture_container {
+  position: relative;
+  margin-bottom: 41px;
+}
+
+#business_summary .agriculture_needs_list {
+  position: relative;
+  padding: 20px;
+  background-color: #F5F8FC;
+  margin-bottom: 50px;
+}
+
+#business_summary .agriculture_needs_list_wrap {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, calc((100% - 80px) / 5));
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+#business_summary .agriculture_needs_image {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+#business_summary .agriculture_needs_name {
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  text-align: center;
+  color: #005aa8;
+}
+
+#business_summary .agriculture_process {
+  position: relative;
+  margin-bottom: 42px;
+}
+
+#business_summary .agriculture_other_intro .info_title {
+  margin-bottom: 18px;
+}
+
+#business_summary .agriculture_other_intro .info_text {
+  margin-bottom: 20px;
+}
+
+#business_summary .agriculture_other_intro .image_help_text {
+  font-size: 16px;
+}
+
+#business_summary .l_row .col_md_6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#business_summary .agriculture_fertilizer_image img {
+  max-width: 380px;
+  width: 100%;
+}
+
+#business_summary .agriculture_soil_system_image img {
+  max-width: 480px;
+  width: 100%;
+}
+
+#business_summary .biostimulant_section {
+  position: relative;
+  padding: 50px 0 100px;
+}
+
+#business_summary .biostimulant_info_box::before {
+  background-image: url(../img/business_summary/biostimulant_bg.png);
+}
+
+#business_summary .biostimulant_info_inner .common_intro_item_title h3 {
+  white-space: nowrap;
+}
+
+#business_summary .biostimulant_image_info_list .info_box .image_help_text {
+  color: #4c4c4c;
+}
+
+#business_summary .common_intro_item {
+  margin-bottom: 65px;
+}
+
+#business_summary .provide_regular_body {
+  position: relative;
+  display: grid;
+  grid-template-columns: 51% calc(49% - 30px);
+  grid-column-gap: 30px;
+}
+
+#business_summary .provide_regular_info {
+  position: relative;
+  background-color: #87B41E;
+  padding: 45px 60px;
+}
+
+#business_summary .provide_regular_info .info_title {
+  position: relative;
+  margin-bottom: 20px;
+  font-family: "Noto Serif JP";
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  line-height: 2.1;
+  text-align: center;
+  color: #fff;
+}
+
+#business_summary .provide_regular_info .info_text {
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.9;
+  text-align: left;
+  color: #fff;
+}
+
+#business_summary .provide_regular_image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#business_summary .provide_regulator_box .info_box .image_help_text {
+  color: #4c4c4c;
+}
+
+#business_summary .biostimulant_image_info_list {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#business_summary .countries_list_wrap {
+  position: relative;
+  display: grid;
+  grid-template-columns: calc(80% - 40px) calc(20% - 40px);
+  grid-column-gap: 80px;
+}
+
+#business_summary .countries_list_title {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#business_summary .countries_list_title h3 {
+  position: relative;
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+  text-align: left;
+  color: #4c4c4c;
+}
+
+#business_summary .countries_33_list .countries_list_body {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  grid-template-rows: repeat(9, auto);
+  grid-column-gap: 20px;
+  grid-auto-flow: column;
+}
+
+#business_summary .country_item {
+  display: grid;
+  grid-template-columns: 38px auto;
+  grid-column-gap: 8px;
+  margin-bottom: 20px;
+}
+
+#business_summary .country_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 26px;
+}
+
+#business_summary .country_img img {
+  width: 100%;
+  height: auto;
+}
+
+#business_summary .country_name {
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+  text-align: left;
+  color: #4c4c4c;
+}
+
+#business_summary .countries_9_list .countries_list_body {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+#business_summary .provide_regulator_box {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+#business_summary .page_description_body {
+  position: relative;
+  display: grid;
+  grid-template-columns: 61% calc(38% - 18px);
+  grid-column-gap: 18px;
+}
+
+#business_summary .page_description_image {
+  position: relative;
+}
+
+#business_summary .page_description_image .image_info_box .image_wrap {
+  max-width: 300px;
+  width: 100%;
+  margin-left: 0;
+}
+
+#business_summary .page_description_image .image_info_help_text {
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 24px;
+}
+
+#business_summary .company_center_title {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+#business_summary .company_center_title h3 {
+  font-family: "Noto Serif JP";
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.12em;
+  line-height: 1.5;
+  text-align: left;
+  color: #005aa8;
+}
+
+#business_summary .company_center_image {
+  position: relative;
+}
+
+#business_summary .company_center_body {
+  position: relative;
+  display: grid;
+  grid-template-columns: 340px calc(100% - 380px);
+  grid-column-gap: 40px;
+}
+
+#business_summary .company_center_info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#business_summary .company_center_inner {
+  position: relative;
+}
+
+#business_summary .company_center_box {
+  position: relative;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+#business_summary .company_center_box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(50% - 500px + 60px);
+  bottom: 0;
+  right: 0;
+  background-color: #F7F7F7;
+  z-index: 0;
+}
+
+#business_summary .company_center_box .container {
+  position: relative;
+  z-index: 1;
+}
+
+#business_summary .company_center_section {
+  position: relative;
+  padding: 60px 0 120px;
+}
+
+#business_summary .oversea_products_section {
+  position: relative;
+}
+
+#business_summary .oversea_products_list_body {
+  position: relative;
+  counter-reset: oversea_product_count;
+}
+
+#business_summary .oversea_product_item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 60% calc(40% - 28px);
+  grid-column-gap: 28px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #BFBFBF;
+}
+
+#business_summary .oversea_product_item_info {
+  position: relative;
+  padding-left: 48px;
+}
+
+#business_summary .oversea_product_item_info::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  counter-increment: oversea_product_count;
+  content: counter(oversea_product_count);
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  font-size: 34px;
+  letter-spacing: 0.03em;
+  line-height: 1.05;
+  text-align: left;
+  color: #005aa8;
+}
+
+#business_summary .oversea_product_image {
+  position: relative;
+  padding: 0 24px;
+}
+
+#business_summary .oversea_product_item .sale_countries_text {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#business_summary .contribute_to_world_section {
+  position: relative;
+  padding: 70px 0 80px;
+}
+
+#business_summary .contribute_title {
+  position: relative;
+  margin-bottom: 0;
+}
+
+#business_summary .contribute_title h3 {
+  font-family: "Noto Serif JP";
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 0.12em;
+  line-height: 1.8;
+  text-align: left;
+  color: #005aa8;
+}
+
+#business_summary .contribute_main_image {
+  position: relative;
+  max-width: 798px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#business_summary .page_description .page_intro_text {
+  font-family: "Noto Serif JP";
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.11em;
+  line-height: 1.9;
+  text-align: center;
+  color: #050505;
+}
+
+#business_summary .company_main_products {
+  position: relative;
+  margin-top: 35px;
+}
+
+#business_summary .company_main_products .title {
+  position: relative;
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  line-height: 1.8;
+  text-align: left;
+  color: #0059a5;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+#business_summary .naroto_company_section {
+  position: relative;
+  padding: 45px 0 140px;
+}
+
+#business_summary .company_main_products .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background-color: #868686;
+}
+
+#business_summary .production_intro_section {
+  position: relative;
+  padding: 32px 0 30px;
+}
+
+
+/* Product */
+
+#products .product_category_section {
+  position: relative;
+  padding: 24px 0 57px;
+}
+
+#products .product_category_box {
+  position: relative;
+}
+
+#products .product_category_title {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#products .product_category_title h3 {
+  font-family: "Noto Serif JP";
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+  text-align: left;
+  color: #0059a5;
+}
+
+#products .product_category_body {
+  position: relative;
+  padding: 15px;
+  background-color: #F7F7F7;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+}
+
+#products .product_category_item {
+  position: relative;
+  padding: 10px 40px;
+  flex: 0 0 auto;
+}
+
+#products .product_category_item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #005aa8;
+  opacity: 0.2;
+}
+
+#products .product_category_item .category {
+  position: relative;
+  display: inline-block;
+  font-family: "Noto Serif JP";
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  line-height: 1.8;
+  text-align: center;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#products .product_category_item .category:hover {
+  color: #868686;
+}
+
+#products .product_search_section {
+  position: relative;
+  padding: 35px 0 55px;
+  background-color: #F7F7F7;
+}
+
+#products .product_search_title {
+  position: relative;
+  padding-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid #DBDBDB;
+  margin-bottom: 25px;
+}
+
+#products .product_search_title h3 {
+  position: relative;
+  font-family: "Noto Serif JP";
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 0.12em;
+  line-height: 1.8;
+  text-align: left;
+  color: #005aa8;
+  margin-right: 30px;
+}
+
+#products .product_search_type_2 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#products .product_search_type_2 .select_container:not(:last-child) {
+  margin-right: 20px;
+}
+
+#products .product_search_type_2 .select_container:nth-child(1) {
+  flex: 0 0 240px;
+  width: 240px;
+}
+
+#products .product_search_type_2 .select_container:nth-child(2) {
+  flex: 0 0 150px;
+  width: 150px;
+}
+
+#products .product_search_input_item {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+#products .product_search_input_wrap {
+  margin-bottom: 40px;
+}
+
+#products .product_search_input_box {
+  position: relative;
+  padding-bottom: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+#products .product_search_result_text {
+  position: relative;
+  padding-top: 55px;
+}
+
+#products .product_search_result_body {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, calc(50% - 20px));
+  grid-column-gap: 40px;
+  grid-row-gap: 38px;
+}
+
+#products .product_search_result_item {
+  position: relative;
+}
+
+#products .product_search_result_item .product_image {
+  position: relative;
+  width: 100%;
+}
+
+#products .product_search_result_item .product_info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 78px);
+  min-height: 198px;
+  background: transparent;
+  backdrop-filter: blur(33.04899978637695px);
+  --webkit-backdrop-filter: blur(33.04899978637695px);
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -86px;
+  padding: 22px 20px 25px;
+}
+
+#products .product_search_result_item .product_info_title {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#products .product_search_result_item .product_info_title h3 {
+  font-family: "Noto Serif JP";
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+  text-align: center;
+  color: #0059a5;
+}
+
+#products .product_search_result_item .product_link {
+  position: relative;
+  font-family: "Noto Serif JP";
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.07em;
+  line-height: 1.8;
+  text-align: center;
+  color: #0059a5;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+#products .product_search_result_item .product_info_text {
+  margin-bottom: 15px;
+}
+
+#products .product_search_result_item .product_link::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  right: 0;
+  width: 6px;
+  height: 12px;
+  background-image: url(../common/img/blue_arrow_right.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#products .product_search_result_section {
+  position: relative;
+  padding: 45px 0;
+}
+
+#products .expand_information_box {
+  position: relative;
+  padding: 30px 60px;
+  background: #fff;
+  border: 1px solid #005aa8;
+}
+
+#products .expand_information_title {
+  position: relative;
+  padding-bottom: 18px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+#products .expand_information_title h3 {
+  position: relative;
+  font-family: "Noto Serif JP";
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 0.12em;
+  line-height: 1.6;
+  text-align: left;
+  color: #005aa8;
+}
+
+#products .expand_information_body {
+  position: relative;
+}
+
+#products .expand_information_item {
+  position: relative;
+  display: grid;
+  grid-template-columns: calc(100% - 130px) 120px;
+  grid-column-gap: 10px;
+}
+
+#products .expand_information_item .info_time {
+  font-family: "Noto Serif JP";
+  font-weight: normal;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  line-height: 1.8;
+  text-align: left;
+  color: #6c6767;
+}
+
+#products .expand_information_item .info_text {
+  font-family: "Noto Serif JP";
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.08em;
+  line-height: 2.1;
+  text-align: left;
+  color: #333;
+}
+
+#products .expand_information_link_wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#products .expand_information_section {
+  position: relative;
+  padding: 75px 0 50px;
+}
+
+#products .product_category_list {
+  position: relative;
+  overflow-x: auto;
+}
+
+#products .product_category_list::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+#products .product_category_list::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+
+#products .product_category_list::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+#products.product_page .product_category_item .category {
+  color: #868686;
+}
+
+#products.product_page .product_category_item .category.active {
+  color: #333;
+}
+
+#products .product_description_box {
+  position: relative;
+}
+
+#products .product_description_title {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+#products .product_description_title h3 {
+  font-family: "Noto Serif JP";
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 0.12em;
+  line-height: 1.6;
+  text-align: left;
+  color: #005aa8;
+}
+
+#products .product_description_body {
+  position: relative;
+  display: grid;
+  grid-template-columns: 380px calc(100% - 406px);
+  grid-column-gap: 26px;
+}
+
+#products .product_description_text .sm_text {
+  font-size: 15px;
+  color: #333;
+  line-height: 2.1;
+}
+
+#products.product_page .product_category_section {
+  padding-bottom: 40px;
+}
+
+#products .product_description_section {
+  position: relative;
+  padding: 0 0 40px;
+}
+
+#products .product_sub_category_list {
+  position: relative;
+  margin-bottom: 26px;
+}
+
+#products .product_sub_category_body {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+#products .product_list_section {
+  position: relative;
+  padding: 50px 0 120px;
+  background-color: #F7F7F7;
+}
+
+#products .product_list_container {
+  position: relative;
+  max-width: 740px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#products .product_list_table table tr td:nth-child(3) {
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#products .product_list_table table tr td:nth-child(4) img {
+  max-width: 106px;
+  width: 100%;
+  height: auto;
+}
+
+#products .product_list_table table a {
+  transition: all 0.3s;
+  color: #005AA8;
+}
+
+#products .product_list_table table a:hover {
+  color: #005AA8;
+  text-decoration: underline;
+}
+
+#products #product_custom_modal .product_detail_box {
+  position: relative;
+  padding: 20px 0 0;
+  border-top: 1px solid #DBDBDB;
+  border-bottom: 1px solid #DBDBDB;
+  margin-bottom: 25px;
+  margin-right: 60px;
+}
+
+#products #product_custom_modal .product_detail_box_body {
+  position: relative;
+  display: grid;
+  grid-template-columns: 270px calc(100% - 297px);
+  grid-column-gap: 27px;
+}
+
+#products #product_custom_modal .product_detail_image {
+  position: relative;
+}
+
+#products #product_custom_modal .product_detail_image .image_wrap {
+  margin: auto;
+}
+
+#products #product_custom_modal .product_detail_inner {
+  position: relative;
+}
+
+#products #product_custom_modal .detail_inner_top {
+  position: relative;
+  margin-bottom: 48px;
+}
+
+#products #product_custom_modal .product_detail_inner .product_special_info {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#products #product_custom_modal .product_category {
+  width: auto;
+  flex: 0 0 auto;
+  position: relative;
+  padding: 6px 15px;
+  background: #005aa9;
+  font-family: "Noto Serif JP";
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  line-height: 1.8;
+  text-align: center;
+  color: #fff;
+  margin-right: 20px;
+}
+
+#products #product_custom_modal .product_register_number {
+  font-family: "Noto Serif JP";
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+  text-align: left;
+  color: #333;
+}
+
+#products #product_custom_modal .product_name {
+  position: relative;
+}
+
+#products #product_custom_modal .product_name h3 {
+  font-family: "Noto Serif JP";
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+  text-align: left;
+  color: #005aa8;
+  margin-bottom: 4px;
+}
+
+#products #product_custom_modal .product_name p {
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 25px;
+  text-align: left;
+  color: #333;
+}
+
+#products #product_custom_modal .product_inquiry_link_wrap {
+  position: relative;
+}
+
+#product_custom_modal .link_btn {
+  height: 46px;
+  font-size: 14px;
+  line-height: 1.6;
+  width: 170px;
+  padding: 6px 20px 6px 10px;
+}
+
+#product_custom_modal .link_btn::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  right: 18px;
+}
+
+#products #product_custom_modal .product_inquiry_link_wrap {
+  margin-bottom: 20px;
+}
+
+#product_custom_modal .product_inquiry_link_wrap .link_btn {
+  width: 250px;
+}
+
+#products #product_custom_modal .product_pdf_link_wrap {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#products #product_custom_modal .product_pdf_link_wrap .btn_container {
+  flex: 0 0 auto;
+  width: auto;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#products #product_custom_modal .product_pdf_link_wrap .link_btn span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#products #product_custom_modal .product_pdf_link_wrap .link_btn .pdf_icon {
+  margin-left: 4px;
+}
+
+#products #product_custom_modal .product_pdf_link_wrap .link_btn:hover .pdf_icon {
+  background-image: url(../common/img/white_pdf_icon.svg);
+}
+
+#products #product_custom_modal .product_detail_table {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+#products #product_custom_modal .product_detail_table table,
+#products #product_custom_modal .product_detail_table table th,
+#products #product_custom_modal .product_detail_table table td {
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 2.1;
+  text-align: left;
+  color: #333;
+  padding: 6px 20px;
+}
+
+#products #product_custom_modal .product_detail_table table th {
+  font-weight: 500;
+  text-align: center;
+  width: 24%;
+}
+
+#products #product_custom_modal .product_detail_table table td {
+  text-align: left;
+}
+
+#products #product_custom_modal ul.features_list {
+  position: relative;
+  list-style: decimal;
+  padding-left: 20px;
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 2.0;
+  text-align: left;
+  color: #333;
+}
+
+#products #product_custom_modal .product_using_method {
+  position: relative;
+}
+
+#products #product_custom_modal .using_method_title {
+  margin-bottom: 25px;
+}
+
+#products #product_custom_modal .using_method_table table,
+#products #product_custom_modal .using_method_table table th,
+#products #product_custom_modal .using_method_table table td {
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: center;
+  color: #333;
+}
+
+#products #product_custom_modal .using_method_table table th:nth-child(1) {
+  width: 12%;
+}
+
+#products #product_custom_modal .using_method_table {
+  margin-bottom: 35px;
+}
+
+#products #product_custom_modal .good_usage {
+  margin-bottom: 35px;
+}
+
+#products #product_custom_modal .precautions {
+  margin-bottom: 35px;
+}
+
+#products #product_custom_modal .product_features {
+  margin-bottom: 35px;
+}
+
+#products #product_custom_modal .modal_close_btn_wrap {
+  margin-top: 40px;
+}
+
+#products #product_custom_modal .modal_close_btn_wrap .blue_btn {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  height: 50px;
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#products #product_custom_modal .modal_close_btn_wrap .blue_btn::after {
+  display: none;
+}
+
+#products #product_custom_modal .close_modal_toggle {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #005aa8;
+  outline: none;
+  border: none;
+  padding: 8px 6px 4px;
+  z-index: 3;
+}
+
+#products #product_custom_modal .close_modal_toggle:hover {
+  opacity: 0.7;
+}
+
+#products #product_custom_modal .close_modal_toggle p {
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 1.8;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#products #product_custom_modal .product_detail_container {
+  position: relative;
+}
+
+#products #product_custom_modal .retrict_icon_wrap {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#products #product_custom_modal .retrict_icon_wrap .image_wrap {
+  margin-left: 4px;
+}
+
+#products #product_custom_modal .using_method_table table {
+  min-width: 991px;
+  overflow-x: auto;
+}
+
+#products #product_custom_modal .using_method_table {
+  overflow-x: auto;
+  width: 100%;
+}
+
+#products #product_custom_modal .using_method_table::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+#products #product_custom_modal .using_method_table::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+
+@media only screen and (max-width:991px) {
+  #products #product_custom_modal .using_method_table {
+    padding-bottom: 15px;
+  }
+}
+
+#products #product_custom_modal .using_method_table::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+#products.contact_page .breadcrumbs {
+  padding: 20px 0 60px;
+}
+
+#products.contact_page .contact_steps {
+  position: relative;
+}
+
+#products.contact_page .contact_steps_wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#products.contact_page .contact_step_container {
+  position: relative;
+  flex: 0 0 33.3333%;
+  width: 33.33333%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#products.contact_page .contact_step {
+  position: relative;
+  width: 108px;
+  height: 42px;
+  background: #fff;
+  border: 1px solid #005aa8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  line-height: 1.4;
+  text-align: center;
+  color: #005aa8;
+}
+
+#products.contact_page .contact_step_container:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 1px;
+  background-color: #005AA8;
+}
+
+#products.contact_page .contact_step.active {
+  background-color: #005aa8;
+  color: #fff;
+}
+
+#products.contact_page .contact_step_description {
+  position: relative;
+  padding: 0 0 90px;
+}
+
+#products.contact_page .contact_step_title {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 60px;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+#products.contact_page .contact_step_title h3 {
+  position: relative;
+  text-align: left;
+}
+
+#products.contact_page .description_text {
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+  text-align: left;
+  color: #050505;
+}
+
+#products.contact_page .contact_step_content {
+  max-width: 860px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#products.contact_page .description_text {
+  margin-bottom: 75px;
+}
+
+#products.contact_page .contact_form_section {
+  position: relative;
+  padding: 100px 0 70px;
+  background-color: #F5F8FC;
+}
+
+#products.contact_page .contact_form_container {
+  position: relative;
+  max-width: 860px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#products.contact_page .contact_form_wrap {
+  position: relative;
+}
+
+#products.contact_page .contact_form_box {
+  position: relative;
+  margin-bottom: 120px;
+}
+
+#products.contact_page .contact_form_box.box_1 {
+  margin-bottom: 80px;
+}
+
+#products.contact_page .contact_form_body {
+  position: relative;
+}
+
+#products.contact_page .contact_input_item {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+#products.contact_page .contact_input_label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#products.contact_page .contact_input_label .label {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+  text-align: left;
+  color: #050505;
+  margin-right: 8px;
+}
+
+#products.contact_page .contact_input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#products.contact_page .require {
+  position: relative;
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+  text-align: left;
+  color: #cc4f4f;
+}
+
+#products.contact_page .contact_radiobox_wrap {
+  position: relative;
+}
+
+#products.contact_page .wpcf7-form-control {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#products.contact_page .wpcf7-list-item {
+  position: relative;
+  width: auto;
+  flex: 0 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#products.contact_page .contact_radiobox_wrap label {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+  text-align: left;
+  color: #3e3e3e;
+}
+
+#products.contact_page .contact_radiobox_wrap label input[type="radio"]+* {
+  position: relative;
+  display: inline-block;
+  padding: 0 0 0 30px;
+}
+
+#products.contact_page .contact_radiobox_wrap .wpcf7-list-item label input[type="radio"]+*::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #ccc;
+}
+
+#products.contact_page .contact_radiobox_wrap .wpcf7-list-item label input[type="radio"]:checked+*::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 4px;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #868686;
+}
+
+#products.contact_page .contact_radiobox_wrap .wpcf7-list-item label input[type="radio"] {
+  display: none;
+}
+
+#products.contact_page .contact_form_title {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+#products.contact_page .contact_form_title h3 {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  text-align: left;
+  color: #050505;
+}
+
+#products.contact_page .contact_form_title p {
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 2.0;
+  text-align: left;
+  color: #3e3e3e;
+  margin-top: 8px;
+}
+
+#products.contact_page .contact_input_item_wrap {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, calc((100% - 50px) / 2));
+  grid-column-gap: 50px;
+}
+
+#products.contact_page .contact_input_item_wrap_small {
+  position: relative;
+  display: grid;
+  grid-template-columns: 180px 175px;
+  grid-column-gap: 27px;
+}
+
+#products.contact_page .contact_form_submit_wrap {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+#products.contact_page .contact_form_submit_wrap .btn_container {
+  width: auto;
+  flex: 0 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+
+#products.contact_page .contact_confirm_message_wrap {
+  position: relative;
+  padding: 60px 0 30px;
+  max-width: 372px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+#products.contact_page .contact_confirm_message {
+  position: relative;
+  background: #fff;
+  padding: 10px 40px;
+  border: 2px solid #d54545;
+  font-family: "Noto Sans JP";
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+  text-align: center;
+  color: #d54545;
+}
+
+#products.contact_page .contact_confirm_text {
+  font-family: "Noto Sans JP";
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+  text-align: left;
+  color: #050505;
+}
+
+#products.contact_page.confirm .contact_input_item {
+  margin-bottom: 30px;
+}
+
+#products.contact_page .contact_form_confirm_wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#products.contact_page .contact_form_confirm_wrap .btn_container {
+  width: auto;
+  flex: 0 0 auto;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin-bottom: 20px;
+}
+
+#products.contact_page .contact_confirm_section {
+  position: relative;
+  padding: 100px 0 100px;
+  background-color: #F5F8FC;
+}
+
+#products.contact_page.done .thank_you_message_box {
+  position: relative;
+}
+
+#products.contact_page.done .message_header {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#products.contact_page.done .message_header h3 {
+  font-family: "Noto Sans JP";
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  text-align: center;
+  color: #050505;
+}
+
+#products.contact_page.done .contact_steps {
+  position: relative;
+  padding: 30px 0 30px;
+  margin-bottom: 100px;
+}
+
+#products.contact_page.done .message_content {
+  margin-bottom: 75px;
+}
+
+#products.contact_page.done .thank_you_message_box {
+  margin-bottom: 30px;
+}
+
+#products.urgent .breadcrumbs {
+  padding: 20px 0;
+}
+
+#products.urgent .page_description_section {
+  position: relative;
+  padding: 40px 0 60px;
+}
+
+#products.urgent .urgent_info_section {
+  position: relative;
+  padding: 0 0 120px;
+}
+
+.urgent_info_section .m_info_box {
+  margin-bottom: 100px;
+}
+
+#products.urgent .urgent_info_section .pc .common_table_16 th:nth-child(1) {
+  width: 28%;
+}
+
+#products.urgent .urgent_info_section .pc .common_table_16 th:nth-child(2) {
+  width: 34%;
+}
+
+#products.notes .breadcrumbs {
+  padding: 20px 0;
+}
+
+#products.notes .page_description_section {
+  position: relative;
+  padding: 40px 0 65px;
+}
+
+#products.notes .page_description_section .page_description_title {
+  margin-bottom: 60px;
+}
+
+#products.notes .page_description_section .page_description_text .m_noto_text {
+  color: #3E3E3E;
+  letter-spacing: 0.025em;
+}
+
+#products.notes .notes_info_section .m_info_box:not(:last-child) {
+  position: relative;
+  margin-bottom: 90px;
+}
+
+#products.notes .notes_info_section .common_text_list_15 li:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+#products.notes .notes_info_section {
+  position: relative;
+  padding: 0 0 120px;
+}
+
+#products.notes .notes_info_section .m_info_box .m_info_text {
+  color: #5C5C5C;
+  margin-bottom: 30px;
+}
+
+
+/* enlarge css */
+
+#enlarge .enlarge_years_section {
+  position: relative;
+  padding: 70px 0;
+}
+
+#enlarge .enlarge_years_section .enlarge_years_links {
+  position: relative;
+  overflow-x: hidden;
+}
+
+#enlarge .enlarge_years_container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-column-gap: 0;
+  grid-row-gap: 10px;
+  margin-right: -2px;
+}
+
+#enlarge .years_link_wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F7F7F7;
+  padding: 8px 16px 8px 15px;
+  z-index: 0;
+}
+
+#enlarge .years_link {
+  position: relative;
+  font-family: "Noto Serif JP";
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  line-height: 1.;
+  text-align: left;
+  color: #333;
+}
+
+#enlarge .years_link_wrap:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  right: 0;
+  bottom: 8px;
+  width: 1px;
+  background-color: rgba(0, 90, 168, 0.2);
+  z-index: 1;
+}
+
+#enlarge .enlarge_table_wrap {
+  position: relative;
+}
+
+#enlarge .enlarge_table_wrap .common_table_16 th:nth-child(1) {
+  width: 6%;
+}
+
+#enlarge .enlarge_table_wrap .common_table_16 th:nth-child(2) {
+  width: 16%;
+}
+
+#enlarge .enlarge_table_wrap .common_table_16 th:nth-child(3) {
+  width: 25%;
+}
+
+#enlarge .enlarge_table_wrap .common_table_16 th:nth-child(4) {
+  width: 16%;
+}
+
+#enlarge .enlarge_table_wrap .common_table_16 th:nth-child(5) {
+  width: auto;
+}
+
+#enlarge .enlarge_table_section {
+  position: relative;
+  padding: 0 0 55px;
+}
+
+#enlarge .enlarge_table_wrap .common_table_16 {
+  width: 780px;
+}
+
+#enlarge .enlarge_table_wrap {
+  overflow-x: auto;
+}
+
+#enlarge .enlarge_table_wrap::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+#enlarge .enlarge_table_wrap::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+
+#enlarge .enlarge_table_wrap::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+
+/* Company css */
+
+#company.management .manager_slogan_box {
+  position: relative;
+  display: grid;
+  grid-template-columns: 61% auto;
+  grid-column-gap: 0;
+  margin-bottom: 50px;
+}
+
+#company.management .manager_greeting_section {
+  position: relative;
+  padding: 30px 0 110px;
+}
+
+#company.management .manager_slogan_info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #005AA8;
+  padding: 30px 45px;
+}
+
+#company.management .manager_slogan_text {
+  font-family: "Noto Serif JP";
+  font-weight: normal;
+  font-size: 30px;
+  letter-spacing: 0.12em;
+  line-height: 1.5;
+  text-align: left;
+  color: #fff;
+}
+
+#company.management .manager_image {
+  position: relative;
+}
+
+#company.management .manager_intro_text {
+  margin-bottom: 50px;
+}
+
+#company.management .manager_greeting_text .m_noto_text_list {
+  color: #005AA8;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+#company.management .manager_greeting_box {
+  position: relative;
+  display: grid;
+  grid-template-columns: 410px calc(100% - 440px);
+  grid-column-gap: 30px;
+}
+
+#company.management .manager_greeting_text {
+  margin-bottom: 90px;
+}
+
+#company.philosophy .philosophy_main_box {
+  position: relative;
+}
+
+.philosophy_main_image {
+  position: relative;
+  width: 100%;
+}
+
+#company.philosophy .philosophy_main_section {
+  position: relative;
+  padding: 30px 0 150px;
+  counter-reset: philosophy_code;
+}
+
+#company.philosophy .philosophy_main_section .philosophy_main_box .philosophy_main_text {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 30px 40px 30px 25px;
+  bottom: 0;
+  left: 0;
+  width: 568px;
+  height: 188px;
+  backdrop-filter: blur(31.464799880981445px);
+  --webkit-backdrop-filter: blur(31.464799880981445px);
+  background-color: rgba(255, 255, 255, 0.9);
+  font-family: "Noto Serif JP";
+  font-weight: 500;
+  font-size: 26px;
+  letter-spacing: 0.11em;
+  line-height: 1.5;
+  text-align: left;
+  color: #005aa8;
+}
+
+#company.philosophy .philosophy_main_box {
+  margin-bottom: 50px;
+}
+
+.philosophy_code_list {
+  position: relative;
+  list-style: none;
+  font-family: "Noto Sans JP";
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  text-align: left;
+  color: #333;
+}
+
+.philosophy_code_title {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.philosophy_code_list li {
+  position: relative;
+  padding: 24px 0 14px 40px;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.philosophy_code_list li::before {
+  position: absolute;
+  counter-increment: philosophy_code;
+  content: counter(philosophy_code)'.';
+  left: 0;
+  top: 14px;
+  font-family: "Noto Serif JP";
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  line-height: 1.4;
+  text-align: left;
+  color: #333;
+}
